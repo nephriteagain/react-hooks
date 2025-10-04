@@ -6,11 +6,41 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "keywords": [
+    "react",
+    "react-hooks",
+    "hooks",
+    "async-hooks",
+    "async",
+    "promise",
+    "fetch",
+    "loading",
+    "state-management",
+    "data-fetching",
+    "error-handling",
+    "typescript",
+    "useEffect",
+    "useCallback",
+    "api"
+  ],
+  "author": "nephriteagain",
   "license": "ISC",
-  "description": "",
+  "description": "A collection of React hooks for handling async operations with loading, error states, and data management",
   "dependencies": {
     "react": "^19.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nephriteagain/react-hooks"
+  },
+  "bugs": {
+    "url": "https://github.com/nephriteagain/react-hooks/issues"
+  },
+  "homepage": "https://github.com/nephriteagain/react-hooks/blob/main/README.md",
+  "publishConfig": {
+    "access": "public"
   }
 }
